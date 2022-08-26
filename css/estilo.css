@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+header {
+    padding: 3rem;
+    background-color: aquamarine;
+}
+
+footer {
+    padding: 3rem;
+    background-color: aquamarine;
+}
+
+.divider {
+    height: 0.1rem;
+    background-color: gray;
+    width: 60%;
+    border-radius: 2rem;
+    margin: auto;
+}
+
+#calculadora {
+    margin: 2rem;
+}
+
+#resultado {
+    width: 40%;
+    margin: auto;
+}
+
+.row {
+    margin: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+
+.input {
+    margin: 2rem;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+td, th {
+    padding: 0.5rem;
+    padding-left: 3rem;
+}
+
+#tabela {
+    display: block;
+    width: auto;
+    margin: auto;
+}
